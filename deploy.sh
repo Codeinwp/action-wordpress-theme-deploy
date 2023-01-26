@@ -46,7 +46,7 @@ if [[ "$BUILD_DIR" != false ]]; then
 	echo "ℹ︎ BUILD_DIR is $BUILD_DIR"
 fi
 
-# SVN_URL="https://themes.svn.wordpress.org/${SLUG}/"
+# SVN_URL="https://themes.svn.wordpress.org/${SLUG}/" Test
 SVN_URL="https://svn.riouxsvn.com/${SLUG}/"
 SVN_DIR="${HOME}/svn-${SLUG}"
 
