@@ -1,0 +1,12 @@
+name: 'WordPress Theme Deploy'
+description: 'Deploy to the WordPress Themes Repository'
+author: 'HardeepAsrani'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+runs:
+  using: 'composite'
+  steps:
+    - id: deploy
+      run: ${{ github.action_path }}/deploy.sh
+      shell: bash
