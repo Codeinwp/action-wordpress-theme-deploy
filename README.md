@@ -74,7 +74,7 @@ jobs:
         npm install
         npm run build
     - name: WordPress Theme Deploy
-      uses: HardeepAsrani/action-wordpress-theme-deploy@primary
+      uses: Codeinwp/action-wordpress-theme-deploy@primary
       env:
         SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
